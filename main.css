@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-image: url("49b9c00c0301a745c925894d8511a438.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    margin: -20px
+}
+
+.navbar{
+    display: flex;
+    width: 1920;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+    margin: 50px, 0px, 0px, 0px;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    float:right;
+    
+}
+
+.navbar a:hover{
+    color: rgb(88, 88, 88);
+}
+
+.navcontainer{
+    display: flex;
+    float:right;
+    width: 480px;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 10%;
+    float: left;
+    position:relative;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: white;
+    text-align:justify;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 150px 50px 150px;
+    margin-right: 250px;
+    margin-top:100px;
+    
+}
+/*HOME PAGE*/
+.showreel{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/*ABOUT PAGE*/
+.aboutimg img{
+    display: flex;
+    float: left;
+    padding: 0 100px 0 100px;
+    margin-left: 250px;
+    width:30%;  
+}
+.row1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    width:480px;
+    flex-direction: row; 
+  }
+  
+  .column1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column1 img {
+    margin-top: 8px;
+    width: 80%;
+  }
+
+/*FILM PAGE*/
+.FilmPortfolio{
+    text-align: center;
+
+}
+
+/*CREATIVE PAGE*/
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding:  50px;
+    flex-direction: row;  
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    width: 100%;
+  }
+
+
+/*CONTACT PAGE*/
+.container {
+    display: flex;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 475px;
+    margin-left: 475px;
+
+  }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* submit button */
+  input[type=submit] {
+    background-color: #292929;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container label{
+      color: rgb(255, 255, 255);
+      font-family: 'Montserrat', sans-serif;
+  }
